@@ -1,0 +1,96 @@
+body{
+  background-color: #063970;
+}
+.App {
+    text-align: center;
+    width: 90%;
+    height:90% ;
+    margin: 0 auto;
+  }
+  
+  .countryList{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .divFlex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 60%;
+    height: 80%;
+    background-color: #2596be;
+    margin: 3em 0 0 0;
+    padding: 12px 10px 12px 10px;
+    color: white;
+  }
+  p{
+    margin: 5px
+  }
+  .img{
+    width: 12em;
+    height: 7em;
+    margin: 0 0 0 5px;
+  }
+  .input{
+    width: 30%;
+    height: 2em;
+    border-radius: 5px;
+    border: 2px solid #063970;
+    margin: 0 0 5px 10px;
+  }
+  .btn{
+    cursor: pointer;
+    margin-left: 5px;
+    background-color:#49be25;
+    border-radius: 5px;
+    color: black;
+    border: none;
+    width: 6em;
+    height: 2.3em;
+    transition: 0.3s;
+  }
+  .btn:hover{
+    background-color:#207506;
+  }
+  .refreshBtn{
+    cursor: pointer;
+    background-color:#f0e741;
+    border-radius: 5px;
+    color: black;
+    border: none;
+    width: 5em;
+    height: 2em;
+  }
+  @media (max-width: 900px) {
+    .divFlex{ 
+      width:80%;
+      height: 80%;
+    }
+    .input{
+      width: 50%;
+      height: 2em;
+    }
+  }
+  @media (min-width: 1300px) {
+    .divFlex{ 
+      width:55%;
+      height: 80%;
+    }
+  }
+  @media (max-width: 500px) {
+    .divFlex{ 
+      width:90%;
+      height: 90%;
+    }
+  }
+  @media (min-width: 730px) {
+    .img{
+      width: 16em;
+      height: 10em;
+      margin: 0 0 0 5px;
+    }
+  }
