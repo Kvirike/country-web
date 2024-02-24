@@ -31,10 +31,8 @@ const [showImage, setShowImage] = useState(true);
       const country = await response.json();
       updtValue(country);
       setErrorMessage('');
-      console.log(country);
     } catch (error) {
       setErrorMessage('Country not found');
-      console.log( error, "Error occured");
     }
   }
 
